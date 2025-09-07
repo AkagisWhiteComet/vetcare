@@ -1,0 +1,29 @@
+@import url(./fonts.css);
+@import url(./variables.css);
+@import url(./globals.css);
+@import url(./blocks/header.css);
+@import url(./blocks/footer.css);
+
+@import url(./blocks/hero.css);
+@import url(./blocks/metrics.css);
+@import url(./blocks/benefits.css);
+@import url(./blocks/reviews.css);
+@import url(./blocks/contact-us.css);
+
+@import url(./blocks/hero-next.css);
+@import url(./blocks/history.css);
+@import url(./blocks/team.css);
+@import url(./blocks/benefits-alt.css);
+@import url(./blocks/achievements.css);
+
+@import url(./blocks/hero-alt.css);
+@import url(./blocks/services.css);
+@import url(./blocks/questions.css);
+
+@import url(./blocks/first-aid.css);
+@import url(./blocks/phone.css);
+@import url(./blocks/call.css);
+
+@import url(./blocks/advices.css);
+
+@import url(./blocks/modal-window.css);

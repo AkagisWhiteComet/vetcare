@@ -1,0 +1,21 @@
+:root {
+	--colour-light: #FFFFFF;
+
+	--colour-dark: #1B1B1B;
+
+	--colour-grey-light: #F5F5F5;
+	--colour-grey: #EBEBEB;
+	--colour-grey-dark: #575757;
+
+	--colour-border: #DCDCDC;
+
+	--colour-accent: #FF9900;
+
+	--font-family-base: 'Inter Tight', sans-serif;
+	--second-font-family: 'SF Pro Display', sans-serif;
+
+	--container-width: 1440px;
+	--container-padding-x: 15px;
+
+	--transition-duration: 0.2s;
+}
