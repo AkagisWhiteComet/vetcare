@@ -1,0 +1,139 @@
+.team__inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.team__title {
+	text-align: center;
+	max-width: 772px;
+	margin-bottom: 45px;
+}
+
+.team__buttons {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 20px;
+}
+
+.team__button {
+	font-size: 18px;
+	line-height: 26px;
+	padding: 8px 24px;
+	background-color: var(--colour-light);
+	border: none;
+	outline: 1px solid var(--colour-dark);
+	outline-offset: -1px;
+	border-radius: 32px;
+}
+
+.team-btn-active {
+	color: var(--colour-light);
+	background-color: var(--colour-dark);
+}
+
+.team__members {
+	display: none;
+}
+
+.team__staff-person {
+	width: 352px;
+	height: 360px;
+	border-radius: 27px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 30px;
+	cursor: pointer;
+}
+
+.team-active {
+	display: grid;
+	grid-template-columns: repeat(4, 352px);
+	justify-content: center;
+	gap: 10px;
+	max-width: 1470px;
+}
+
+.darling {
+	background-image: url(../../images/team/darling.jpg);
+}
+
+.riley {
+	background-image: url(../../images/team/riley.jpg);
+}
+
+.ivanova {
+	background-image: url(../../images/team/ivanova.jpg);
+}
+
+.belov {
+	background-image: url(../../images/team/belov.jpg);
+}
+
+.ilya {
+	background-image: url(../../images/team/groomer4.jpg);
+}
+
+.mariya {
+	background-image: url(../../images/team/groomer1.jpg);
+}
+
+.den {
+	background-image: url(../../images/team/groomer2.jpg);
+}
+
+.saga {
+	background-image: url(../../images/team/groomer3.jpg);
+}
+
+
+.team__staff-image {
+	border-radius: 24px;
+}
+
+.team__staff-info {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+
+	padding: 12px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 12px;
+	margin-bottom: 15px;
+	width: 300px;
+}
+
+.team__staff-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.team__staff-title {
+	font-weight: 500;
+}
+
+.team__staff-description {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	max-height: 72px;
+}
+
+.team__staff-subtitle {
+	font-weight: 500;
+}
+
+.modal-btn {
+	background: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.team-barrow {
+	top: 20px;
+}

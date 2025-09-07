@@ -1,0 +1,86 @@
+.services {
+	background-color: var(--colour-grey-light);
+}
+
+.services__body {
+	display: flex;
+	justify-content: space-between;
+	gap: 60px;
+	padding: 30px;
+	background-color: var(--colour-light);
+	border-radius: 24px;
+}
+
+.services__image {
+	border-radius: 12px;
+}
+
+#imageContainer {
+	width: 640px;
+	height: 791px;
+	background-image: url(../../images/services/toys.jpg);
+	background-repeat: no-repeat;
+	border-radius: 12px;
+}
+
+.services__content-title {
+	margin-bottom: 24px;
+}
+
+.services__content-card {
+	padding: 21px 12px;
+	background-color: var(--colour-light);
+	width: 676px;
+	height: 81px;
+	border-radius: 24px;
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	margin-bottom: 24px;
+	box-shadow: 0 0 12px 2px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+.services__content-card:last-child {
+	margin: 0;
+}
+
+.services__content-card-image {
+	border-radius: 12px;
+}
+
+.services__content-card-title {
+	margin-bottom: 15px;
+}
+
+.services__content-card-add {
+	padding: 4px 24px;
+	background-color: var(--colour-light);
+	outline: 1px solid var(--colour-dark);
+	outline-offset: -1px;
+	border-radius: 44px;
+}
+
+.active-card {
+	box-shadow: none;
+	background-color: rgba(255, 153, 0, 0.12);
+	outline: 1px solid var(--colour-accent);
+}
+.active-card span {
+	background-color: rgba(0, 0, 0, 0);
+	outline: 1px solid var(--colour-accent);
+	color: var(--colour-accent);
+}
+.active-card h5 {
+	color: var(--colour-accent);
+}
+
+.slide-text {
+	padding: 20px;
+	display: none;
+}
+.slide-text h3 {
+	margin-bottom: 20px;
+}
+.slide-text.active {
+	display: block;
+}

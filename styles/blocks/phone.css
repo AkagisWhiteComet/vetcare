@@ -1,0 +1,22 @@
+.phone {
+	padding: 66px 0;
+	background-color: var(--colour-dark);
+	background-image: url(../../images/emergency/phone-bg.png);
+}
+
+.phone__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 17px;
+}
+
+.phone__title {
+	color: var(--colour-light);
+	text-align: center;
+}
+
+.phone__subtitle {
+	color: var(--colour-light);
+	text-align: center;
+}

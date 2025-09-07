@@ -1,0 +1,108 @@
+.contact-us {
+	background: url(../../images/contact.jpg) no-repeat;
+	background-size: cover;
+}
+
+.contact-us__text {
+	max-width: 966px;
+	margin-bottom: 70px;
+}
+
+.contact-us__title {
+	color: var(--colour-light);
+	margin-bottom: 24px;
+}
+
+.contact-us__subtitle {
+	color: var(--colour-light);
+}
+
+.contact-us__form {
+	height: 835px;
+	display: flex;
+	justify-content: space-between;
+	background: rgba(255, 255, 255, 0.7);
+	padding: 40px;
+	border-radius: 24px;
+}
+
+.contact-us__form-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.form__title {
+	margin-bottom: 17px;
+}
+
+.feedback-form {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.feedback-form__cell {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.field__label {
+	font-weight: 500;
+}
+
+.field__control {
+	width: 653px;
+	height: 80px;
+	border: none;
+	border-radius: 12px;
+	font-size: 24px;
+	line-height: 32px;
+	padding-left: 24px;
+}
+
+.optionally {
+	color: var(--colour-grey-dark);
+}
+
+.textarea {
+	height: 169px;
+	resize: none;
+}
+
+.feedback-form__submit-button {
+	border: none;
+	padding: 20px 0;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+.form__image {
+	border-radius: 24px;
+}
+
+
+
+/* Validation */
+.feedback-form__cell input, .feedback-form__cell textarea {
+	border: 2px solid var(--colour-accent);
+}
+.feedback-form__cell input:focus {
+	outline: 0;
+}
+
+.feedback-form__cell.success input, .feedback-form__cell.success textarea {
+	border-color: #00ff48;
+}
+.feedback-form__cell.error input, .feedback-form__cell.error textarea {
+	border-color: #ff002f;
+}
+
+.feedback-form__cell .error {
+	color: #ff002f;
+	font-size: 18px;
+	height: 30px;
+}

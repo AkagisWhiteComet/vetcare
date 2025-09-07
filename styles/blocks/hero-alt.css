@@ -1,0 +1,36 @@
+.hero-alt {
+	background-image: url(../../images/hero-alt/hero-alt-bg.png);
+}
+
+.hero-alt__body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 60px;
+	padding: 63px 0 60px 0;
+}
+
+.hero-alt__images {
+	height: 691px;
+}
+
+.hero-alt__image--first {
+	border-radius: 180px 180px 0 0;
+	position: relative;
+	top: 410px;
+	right: 76px;
+}
+
+.hero-alt__image--second {
+	border-radius: 0 0 180px 180px;
+	position: relative;
+	left: 35px;
+	bottom: 410px;
+}
+
+.hero-alt__image--third {
+	border-radius: 180px 180px 0 0;
+	position: relative;
+	bottom: 525px;
+	left: 357px;
+}

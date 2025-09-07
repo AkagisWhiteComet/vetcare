@@ -1,0 +1,43 @@
+.metrics__body {
+	display: flex;
+	align-items: center;
+	gap: 60px;
+}
+
+.metrics__image {
+	border-radius: 0 90px;
+}
+
+.metrics__title {
+	padding-bottom: 24px;
+}
+
+.metrics__subtitle {
+	padding-bottom: 80px;
+}
+
+.metrics__values-list {
+	display: flex;
+	gap: 70px;
+	margin: 0;
+	padding: 0;
+
+	font-family: var(--second-font-family);
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.metrics__value {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.metrics__value--modified {
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 0.56;
+	color: var(--colour-accent);
+}

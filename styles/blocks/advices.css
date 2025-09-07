@@ -1,0 +1,146 @@
+.advices {
+	background-color: var(--colour-grey-light);
+}
+
+.advices__body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.advices__title {
+	max-width: 812px;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.advices__cards {
+	display: flex;
+	gap: 70px;
+}
+
+.advices__card-wrapper {
+	position: relative;
+}
+.advices__card-wrapper::after {
+	content: "";
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%; height: 100%;
+	background-color: rgba(255,255,255,0.5);
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+.advices__card-wrapper:hover::after {
+	opacity: 1;
+	pointer-events: none;
+}
+
+.advices__card {
+	width: 624px;
+	height: 560px;
+	border-radius: 24px;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 12px;
+	cursor: pointer;
+}
+
+.dog {
+	background-image: url(../../images/news/dobermann.jpg);
+}
+
+.cat {
+	background-image: url(../../images/news/white-cat.jpg);
+}
+
+.advices__card-info {
+	position: relative;
+	width: 576px;
+	padding: 12px;
+	background-color: var(--colour-light);
+	border-radius: 12px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	margin-bottom: 12px;
+}
+
+.advices__card-author {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	color: var(--colour-grey-dark);
+}
+
+.advices__card-person {
+	border-radius: 30px;
+}
+
+.advices__card-arrow {
+	order: 33;
+	margin-left: auto;
+}
+
+
+/* modal windows */
+.advices__card-modal {
+	position: fixed;
+  inset: 0;
+  cursor: pointer;
+  padding: 25px;
+	overflow-y: auto;
+}
+
+.adv-modal__wrapper {
+	position: relative;
+  width: 1236px;
+  padding: 25px;
+
+  background-color: var(--colour-light);
+  outline: 1px solid var(--colour-border);
+  outline-offset: -1px;
+  border-radius: 51px;
+
+  margin: auto;
+
+  gap: 25px;
+  cursor: default;
+}
+
+.adv-modal__image {
+	border-radius: 26px;
+	float: left;
+	margin: 0 25px 25px 0;
+}
+
+.adv-modal__author {
+	margin-bottom: 90px;
+}
+
+.adv-modal__text {
+	color: var(--colour-grey-dark);
+}
+.adv-modal__text:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.adv-modal__title {
+	margin-bottom: 25px;
+}
+
+.adv-modal__description {
+	margin-bottom: 25px;
+}
+.adv-modal__description2 {
+	margin: 25px 0 0 0;
+}
+
+.adv-modal__list {
+	padding: 0;
+	margin: 0 0 0 20px;
+}
