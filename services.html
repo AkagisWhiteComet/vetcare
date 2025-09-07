@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/main.css">
+	<link rel="shortcut icon" href="./images/icons/tab-icon.svg">
+	<script src="./scripts/main.js" defer></script>
+	<script src="./scripts/services.js" defer></script>
+	<title>Vetcare | Услуги</title>
+</head>
+<body id="top">
+		<header class="header">
+		<div class="header__inner">
+			<a class="header__logo logo" href="./index.html" aria-label="Home" title="Home">
+				<img 
+					class="logo" 
+					src="./images/header/logo.svg" 
+					alt="" 
+					width="103" height="32"
+				/>
+			</a>
+			<nav class="header__menu">
+				<ul class="header__menu-list">
+					<li class="header__menu-item">
+						<a href="./index.html" class="header__menu-link">Главная</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="./about.html" class="header__menu-link">О нас</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link is-active">Услуги</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="./emergency.html" class="header__menu-link">Экстренная помощь</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="./news.html" class="header__menu-link">Новости</a>
+					</li>
+				</ul>
+			</nav>
+			<a class="header__button" href="index.html#contact">Связаться</a>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="hero-alt">
+			<div class="hero-alt__body container">
+				<div class="hero__content">
+					<span class="hero__subtitle">№1 ветеринарная клиника в стране</span>
+					<h1 class="hero__title">Полноценный уход с учётом всех потребностей</h1>
+					<p class="hero__description">
+						В Vetcare мы заботимся о ваших питомцах, предоставляя им только всё самое лучшее!
+					</p>
+					<a href="https://forms.yandex.ru/u/68b57c78d0468826a3bd63bb" class="hero__button button--accent" target="_blank">Записаться на приём</a>
+				</div>
+				<div class="hero-alt__images">
+					<img
+						class="hero-alt__image--first"
+						src="./images/hero-alt/cat-on-the-grass.jpg"
+						alt=""
+						width="363" height="341"
+					/>
+					<img
+						class="hero-alt__image--second"
+						src="./images/hero-alt/dog-in-the-lake.jpg"
+						alt=""
+						width="363" height="447"
+					/>
+					<img
+						class="hero-alt__image--third"
+						src="./images/hero-alt/dog-in-the-mountains.jpg"
+						alt=""
+						width="363" height="476"
+					/>
+				</div>
+			</div>
+			<div class="hero__advantage">
+					<ul class="hero__advantage-list">
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Зоотовары</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Груминг</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Ветеринария</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Присмотр</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Уход</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Стационар</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Зоотовары</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Груминг</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Ветеринария</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Присмотр</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Уход</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+						<li class="hero__advantage-item">
+							<h5 class="hero__advantage-title">Стационар</h5>
+							<img src="./images/advantages/icon-paw.svg" alt="" width="40" height="40"/>
+						</li>
+					</ul>
+				</div>
+		</section>
+		<section class="services section">
+			<div class="services__inner container">
+				<div class="services__body">
+					<div class="services__images">
+						<div class="services__images-container">
+							<div class="services__image-content" id="imageContainer">
+								<div class="slide-text active" id="slide1">
+									<h3>Ветеринария</h3>
+									<p>
+									    Мы предлагаем полный спектр ветеринарных услуг для диагностики, лечения и профилактики заболеваний ваших питомцев. 
+									    В нашей клинике работают опытные специалисты, использующие современное оборудование и проверенные методы.
+									</p><br>
+									<p>
+									    Наш подход основан на индивидуальном внимании к каждому животному и комплексном подходе к его здоровью. 
+									    Мы оказываем как плановую помощь, так и экстренное лечение, обеспечивая максимальный комфорт и безопасность для питомцев.
+									</p><br>
+									<p>
+									    Ветеринарные услуги включают широкий спектр процедур — от базовых консультаций и вакцинации до сложных хирургических вмешательств и специализированной диагностики.
+									</p><br>
+
+									<h5>Цены</h5>
+									<ul style="list-style-type: none; padding-left: 0;">
+									    <li><strong>Консультация ветеринара:</strong> 1000 ₽</li>
+									    <li><strong>Общий анализ крови:</strong> 1200 ₽</li>
+									    <li><strong>Биохимический анализ крови:</strong> от 1500 ₽ (в зависимости от объёма исследований)</li>
+									    <li><strong>УЗИ органов брюшной полости:</strong> 2500 ₽</li>
+									    <li><strong>Рентгенография:</strong> от 2000 ₽ (в зависимости от количества снимков)</li>
+									    <li><strong>Вакцинация:</strong> от 1500 ₽</li>
+									    <li><strong>Мелкие хирургические операции:</strong> от 4000 ₽ (в зависимости от сложности)</li>
+									    <li><strong>Стерилизация/кастрация:</strong> от 7000 ₽ (в зависимости от вида животного)</li>
+									    <li><strong>Стоматологические процедуры:</strong> от 3000 ₽ (в зависимости от объёма работы)</li>
+									</ul>
+								</div>
+								<div class="slide-text" id="slide2">
+									<h3>Стационар</h3>
+									<p>
+									    Наш стационар — это надёжное и комфортное место для вашего питомца на время вашего отсутствия или при необходимости медицинского наблюдения. 
+									    Мы обеспечиваем круглосуточный уход, внимательный контроль состояния здоровья и индивидуальный подход к каждому животному.
+									</p>
+									<p>
+									    В стационаре созданы все условия для комфортного пребывания: просторные и чистые вольеры, регулярные прогулки, сбалансированное питание по рекомендациям владельца и ветеринаров, а также постоянный мониторинг самочувствия питомца. 
+									</p>
+									<p>
+									    Мы понимаем, что разлука с питомцем может быть стрессом как для вас, так и для него, поэтому уделяем особое внимание психологическому комфорту животного. 
+									    В стационаре поддерживается спокойная атмосфера, а персонал старается создать домашнюю обстановку, чтобы питомец чувствовал себя защищённым и любимым.
+									</p>
+
+									<h5>Цены</h5>
+									<ul style="list-style-type: none; padding-left: 0;">
+									    <li><strong>Пребывание в стационаре (собаки крупные):</strong> 2000 ₽ за сутки</li>
+									    <li><strong>Пребывание в стационаре (собаки мелкие и кошки):</strong> 1500 ₽ за сутки</li>
+									    <li><strong>Пребывание в стационаре (грызуны и птицы):</strong> 1000 ₽ за сутки</li>
+									    <li><strong>Медицинский уход и процедуры:</strong> от 500 ₽ за процедуру (по согласованию)</li>
+									    <li><strong>Консультация ветеринара:</strong> 1000 ₽</li>
+									</ul>
+
+									<p>
+									    Минимальный срок пребывания — 1 сутки. Для длительного размещения возможны скидки и индивидуальные условия. 
+									    Мы всегда готовы обсудить особенности ухода за вашим питомцем и подобрать оптимальный вариант размещения.
+									</p>
+									<p>
+									    Доверьте здоровье и комфорт вашего любимца профессионалам — мы сделаем всё, чтобы он чувствовал себя в безопасности и заботе, пока вас нет рядом.
+									</p>
+								</div>
+								<div class="slide-text" id="slide3">
+									<h3>Экстренная помощь</h3>
+									<p>
+									    В экстренных ситуациях здоровье вашего питомца требует немедленного вмешательства. Наша служба экстренной помощи готова оперативно выехать к вам на дом и оказать квалифицированную ветеринарную помощь в любое время суток. 
+									    Мы понимаем, как важно быстро и профессионально реагировать на непредвиденные ситуации, чтобы сохранить жизнь и здоровье вашего любимца.
+									</p>
+									<p>
+									    Наши ветеринары оснащены всем необходимым оборудованием и медикаментами для проведения диагностики и оказания первой помощи прямо на месте. 
+									    В случае необходимости мы организуем транспортировку животного в клинику для дальнейшего лечения и наблюдения.
+									</p>
+									<p>
+									    Услуга экстренной помощи включает осмотр, постановку диагноза, проведение неотложных процедур, введение лекарств и рекомендации по дальнейшему уходу. 
+									    Мы гарантируем внимательное и бережное отношение к вашему питомцу в стрессовой ситуации.
+									</p><br>
+
+									<h5>Цены</h5>
+									<ul style="list-style-type: none; padding-left: 0;">
+									    <li><strong>Вызов ветеринара на дом (в пределах города):</strong> 3000 ₽</li>
+									    <li><strong>Вызов ветеринара на дом (за городом):</strong> от 4000 ₽ (зависит от расстояния)</li>
+									    <li><strong>Осмотр и первичная диагностика:</strong> включено в стоимость вызова</li>
+									    <li><strong>Неотложные процедуры и медикаментозное лечение:</strong> от 1000 ₽ (в зависимости от сложности)</li>
+									    <li><strong>Транспортировка в клинику (при необходимости):</strong> включено в стоимость вызова</li>
+									</ul>
+
+									<p>
+									    Мы работаем круглосуточно и без выходных, чтобы вы могли рассчитывать на нашу помощь в любой момент. 
+									    Позвоните нам при первой необходимости — мы быстро приедем и окажем квалифицированную помощь вашему питомцу.
+									</p>
+								</div>
+								<div class="slide-text" id="slide4">
+									<h3>Груминг</h3>
+									<p>
+									    Профессиональный уход за вашим питомцем — это не только эстетика, но и здоровье. Наши специалисты используют современные техники и качественные средства для ухода за шерстью, кожей и ногтями. 
+									    Мы заботимся о комфорте и безопасности вашего любимца, делая процедуры максимально приятными и безболезненными.
+									</p><br>
+									<p>
+									    В услуги груминга входит стрижка, мытьё, сушка, расчёсывание, подрезка когтей, чистка ушей и уход за кожей. Мы учитываем особенности породы, возраст и индивидуальные предпочтения питомца, чтобы результат был безупречным.
+									</p><br>
+									<p>
+									    Запишитесь на процедуру и подарите своему питомцу свежесть, красоту и здоровье!
+									</p><br>
+
+									<h5>Цены</h4>
+									<ul style="list-style-type: none; padding-left: 0;">
+									    <li><strong>Стрижка и укладка (классическая)</strong>: 2500 ₽</li>
+									    <li><strong>Стрижка по породе</strong>: от 3000 ₽ (зависит от сложности и длины шерсти)</li>
+									    <li><strong>Мытьё и сушка</strong>: 1500 ₽</li>
+									    <li><strong>Подрезка когтей</strong>: 500 ₽</li>
+									    <li><strong>Чистка ушей</strong>: 700 ₽</li>
+									    <li><strong>Комбинированный уход (стрижка + мытьё + когти + уши)</strong>: 4000 ₽</li>
+									</ul>
+
+									<p>
+									    Все процедуры выполняются с использованием гипоаллергенных средств и с заботой о комфорте вашего питомца. 
+									</p>
+								</div>
+								<div class="slide-text" id="slide5">
+									<h3>Присмотр за животными</h3>
+									<p>
+											Оставьте вашего любимого питомца под нашим внимательным присмотром. 
+											Мы понимаем, как важно для вас быть уверенными в том, что животное находится в надёжных руках, 
+											поэтому предлагаем заботу, основанную на индивидуальном подходе и внимании к каждой детали.
+									</p><br>
+									<p>
+									    Во время вашего отсутствия мы обеспечим комфортные условия для питомца: регулярное кормление и поение по привычному расписанию, 
+									    прогулки и активность для собак не менее двух раз в день, а также поддержание чистоты в месте его обитания. 
+									    Особое внимание уделяется эмоциональному состоянию животного — мы создаём атмосферу уюта и спокойствия, 
+									    чтобы снизить стресс и помочь питомцу чувствовать себя как дома.
+									</p><br>
+									<p>
+										Наши специалисты внимательно следят за здоровьем и поведением животного, при необходимости своевременно информируют владельца. 
+										Вы можете забрать питомца в любое удобное для вас время — мы гибко подстраиваемся под ваши планы.
+									</p><br>
+
+									<h5>Цены</h5>
+									<ul style="list-style-type: none; padding-left: 0;">
+										<li>Оставить своих питомцев вы можете на срок от 1-го дня до 1-ой недели. Такой срок установлен ради благополучия ваших домашних любимчиков, т.к. они болезненно переносят длительную разлуку с хозяевами.</li>
+										<li><strong>Собаки крупных пород:</strong> 1700 ₽ за первые сутки + 1000 ₽ за каждый последующий день</li>
+										<li><strong>Собаки мелких пород и кошки:</strong> 1200 ₽ за первые сутки + 1000 ₽ за каждый последующий день</li>
+										<li><strong>Грызуны и птицы:</strong> 800 ₽ за первые сутки + 500 ₽ за каждый последующий день</li>
+									</ul><br>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="services__content">
+						<h2 class="services__content-title">Услуги</h2>
+						<div class="services__content-card active-card">
+							<img
+								class="services__content-card-image" 
+								src="./images/services/card3.jpg"
+								alt=""
+								width="80" height="80"
+							/>
+							<div class="services__content-card-text">
+								<h5 class="services__content-card-title">Ветеринария</h5>
+								<span class="services__content-card-add">Мед. осмотры</span>
+								<span class="services__content-card-add">Вакцинация</span>
+							</div>
+						</div>
+						<div class="services__content-card">
+							<img
+								class="services__content-card-image" 
+								src="./images/services/card1.jpg"
+								alt=""
+								width="80" height="80"
+							/>
+							<div class="services__content-card-text">
+								<h5 class="services__content-card-title">Стационар</h5>
+								<span class="services__content-card-add">Круглосуточный уход</span>
+								<span class="services__content-card-add">Наблюдение и лечение</span>
+							</div>
+						</div>
+						<div class="services__content-card">
+							<img
+								class="services__content-card-image" 
+								src="./images/services/card5.jpg"
+								alt=""
+								width="80" height="80"
+							/>
+							<div class="services__content-card-text">
+								<h5 class="services__content-card-title">Экстренная помощь</h5>
+								<span class="services__content-card-add">Неотложная помощь</span>
+								<span class="services__content-card-add">Доставка в клинику</span>
+							</div>
+						</div>
+						<div class="services__content-card">
+							<img
+								class="services__content-card-image" 
+								src="./images/services/card2.jpg"
+								alt=""
+								width="80" height="80"
+							/>
+							<div class="services__content-card-text">
+								<h5 class="services__content-card-title">Груминг</h5>
+								<span class="services__content-card-add">Купание</span>
+								<span class="services__content-card-add">Стрижка ногтей</span>
+							</div>
+						</div>
+						<div class="services__content-card">
+							<img
+								class="services__content-card-image" 
+								src="./images/services/card4.jpg"
+								alt=""
+								width="80" height="80"
+							/>
+							<div class="services__content-card-text">
+								<h5 class="services__content-card-title">Присмотр за питомцами</h5>
+								<span class="services__content-card-add">Развлечения</span>
+								<span class="services__content-card-add">Забота</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="questions section">
+			<h2 class="questions__title">Часто задаваемые вопросы</h2>
+			<div class="questions__accordions container">
+				<details class="questions__accordion" name="faq">
+					<summary>Какие у вас есть услуги?</summary>
+					<p class="questions__accordion-description">
+						От груминга и медицинских осмотров до ежедневного ухода – 
+						мы предлагаем широкий спектр услуг для благополучия ваших питомцев.
+					</p>
+				</details>
+				<details class="questions__accordion" name="faq">
+					<summary>Можно ли вам доверять?</summary>
+					<p class="questions__accordion-description">
+						Наши специалисты имеют горы опыта за своими плечами, к тому же,
+						они всегда следят за новостями и постоянно повышают свой уровень знаний в области ветеринарной медицины.
+					</p>
+				</details>
+				<details class="questions__accordion" name="faq">
+					<summary>Какое у вас оборудование?</summary>
+					<p class="questions__accordion-description">
+						Мы используем только профессиональное, современное и
+						высокотехнологическое оборудование, созданное опытными инженерами.
+					</p>
+				</details>
+				<details class="questions__accordion" name="faq">
+					<summary>Какой у вас график работы?</summary>
+					<p class="questions__accordion-description">
+						Мы работает круглосуточно 7 дней в неделю –
+						ваши питомцы находятся под постоянным наблюдением профессионалов!
+					</p>
+				</details>
+				<details class="questions__accordion" name="faq">
+					<summary>Есть ли какие-либо акции?</summary>
+					<p class="questions__accordion-description">
+						У всех новых клиентов первый приём бесплатный, а у постоянных действует 
+						накопительная скидка. Мы не стремимся к выручке,
+						наша цель – делать счастливыми питомцев и их владельцев!
+					</p>
+				</details>
+				<details class="questions__accordion" name="faq">
+					<summary>Откроетесь ли вы в других городах?</summary>
+					<p class="questions__accordion-description">
+						Пока что наши клиники находятся только в крупных городах.
+						Но благодаря вашей поддержке мы стремительно развиваемся!
+					</p>
+				</details>
+			</div>
+		</section>
+		<button class="top-button" onclick="topFunction()" id="top-button">
+			<img src="./images/top.svg" alt="Наверх" width="50" height="50">
+		</button>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__body">
+				<img 
+					class="footer__logo"
+					src="./images/footer/footer-logo.svg" 
+					alt=""
+					width="103" height="32"
+				/>
+				<div class="footer__menu">
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Контакты</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">8 333 444-55-22</li>
+							<li class="footer__menu-item">vetcare@mail.ru</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAv7R~A" class="footer__menu-link">
+									Головной офис:
+									г. Москва,
+									Кутузовский проспект,
+									32кА
+								</a>
+							</li>
+							<h6 class="footer__menu-item">
+								<a href="map.html" class="footer__menu-link">Карта сайта</a>
+							</h6>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Сайт</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="about.html">О нас</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">Услуги</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="news.html">Новости</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="emergency.html">Экстренная служба</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="about.html#team">Наша команда</a>
+								</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="index.html#reviews">Отзывы</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Услуги</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">Ветеринария</li>
+							<li class="footer__menu-item">Груминг</li>
+							<li class="footer__menu-item">Присмотр</li>
+							<li class="footer__menu-item">Уход</li>
+							<li class="footer__menu-item">Стационар</li>
+							<li class="footer__menu-item">Зоотовары</li>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Города</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAzA48K" class="footer__menu-link">Москва</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvvUon" class="footer__menu-link">Санкт-Петербург</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvzWiG" class="footer__menu-link">Новосибирск</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvvPi-" class="footer__menu-link">Ростов-на-Дону</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvzY-U" class="footer__menu-link">Екатеринбург</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvz2ir" class="footer__menu-link">Хабаровск</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Питомцы</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">Собаки</li>
+							<li class="footer__menu-item">Кошки</li>
+							<li class="footer__menu-item">Попугаи</li>
+							<li class="footer__menu-item">Кролики</li>
+							<li class="footer__menu-item">Мелкие грызуны</li>
+							<li class="footer__menu-item">Аквариумные</li>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Преимущества</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">Передовые технологии</li>
+							<li class="footer__menu-item">Квалифицированные специалисты</li>
+							<li class="footer__menu-item">Индивидуальный подход</li>
+							<li class="footer__menu-item">Поддержка владельцев</li>
+							<li class="footer__menu-item">Экстренная помощь</li>
+							<li class="footer__menu-item">Доступность</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__extra">
+					<p class="footer__extra-subtitle">
+                        2025 Vetcare, все права защищены | 
+                        <a href="legal.html" class="footer__extra-link">Политика конфиденциальности</a> |
+                        <a href="data.html" class="footer__extra-link">Соглашение пользователя</a>
+                    </p>
+					<div class="footer__extra-socials">
+						<img
+							class="footer__extra-social"
+							src="./images/footer/icon-Instagram.svg" 
+							alt=""
+							width="48" height="48" 
+						/>
+						<a href="https://vk.com/club230767133" class="footer__extra-social-link">
+							<img
+								class="footer__extra-social"
+								src="./images/footer/icon-Vk.svg" 
+								alt=""
+								width="48" height="48" 
+							/>
+						</a>
+						<img
+							class="footer__extra-social"
+							src="./images/footer/icon-Behance.svg" 
+							alt=""
+							width="48" height="48" 
+						/>
+						<a href="https://t.me/+nhmWvYDqGtkwOTcy" class="footer__extra-social-link">
+							<img
+								class="footer__extra-social"
+								src="./images/footer/icon-Telegram.svg" 
+								alt=""
+								width="48" height="48" 
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

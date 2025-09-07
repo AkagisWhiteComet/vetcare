@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles/main.css">
+	<link rel="shortcut icon" href="./images/icons/tab-icon.svg">
+	<script src="./scripts/main.js" defer></script>
+	<script src="./scripts/team.js" defer></script>
+	<script src="./scripts/modal-window.js" defer></script>
+	<title>Vetcare | О нас</title>
+</head>
+<body id="top">
+	<header class="header">
+		<div class="header__inner">
+			<a class="header__logo logo" href="./index.html" aria-label="Home" title="Home">
+				<img 
+					class="logo" 
+					src="./images/header/logo.svg" 
+					alt="" 
+					width="103" height="32"
+				/>
+			</a>
+			<nav class="header__menu">
+				<ul class="header__menu-list">
+					<li class="header__menu-item">
+						<a href="./index.html" class="header__menu-link">Главная</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="#" class="header__menu-link is-active">О нас</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="./services.html" class="header__menu-link">Услуги</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="./emergency.html" class="header__menu-link">Экстренная помощь</a>
+					</li>
+					<li class="header__menu-item">
+						<a href="./news.html" class="header__menu-link">Новости</a>
+					</li>
+				</ul>
+			</nav>
+			<a class="header__button" href="index.html#contact">Связаться</a>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="hero-next">
+			<div class="hero-next__body container">
+				<div class="hero-next__text-block">
+					<h1 class="hero-next__title">Заботимся о питомцах, даря им счастье и здоровье</h1>
+					<h6 class="hero-next__subtitle">
+						Мы стремимся предоставить качественный уход с любовью, 
+						доверием и индивидуальным подходом к каждому пушистому компаньону
+					</h6>
+					<a href="https://forms.yandex.ru/u/68b57c78d0468826a3bd63bb" class="hero__button button--accent" target="_blank">Записаться на приём</a>
+				</div>
+				<div class="hero-next__image-block">
+					<img
+						class="hero-next__image--left"
+						src="./images/left.jpg" 
+						alt=""
+						width="356" height="454"
+					/>
+					<img
+						class="hero-next__image--middle"
+						src="./images/middle.jpg" 
+						alt=""
+						width="636" height="454"
+					/>
+					<img
+						class="hero-next__image--right"
+						src="./images/right.jpg" 
+						alt=""
+						width="356" height="454"
+					/>
+				</div>
+			</div>
+		</section>
+		<section class="history section">
+			<div class="history__inner container">
+				<div class="history__content">
+					<h3 class="history__title">
+						В основе нашей деятельности лежат забота и любовь к животным
+					</h3>
+					<div class="history__items">
+						<div class="history__item">
+							<img src="./images/history/1.svg" alt="" class="history__item-icon" width="48" height="48">
+							<div class="history__item-text">
+								<h5 class="history__item-title">Маленькое начало</h5>
+								<h6 class="history__item-description">
+									Основанная в 2011 году, наша клиника начала развиваться как 
+									небольшая организация с большой любовью к животным
+								</h6>
+							</div>
+						</div>
+						<div class="history__item">
+							<img src="./images/history/2.svg" alt="" class="history__item-icon" width="48" height="48">
+							<div class="history__item-text">
+								<h5 class="history__item-title">Путь к совершенству</h5>
+								<h6 class="history__item-description">
+									Год за годом мы увеличивали спектр услуг и пространство клиники,
+									а наши специалисты совершенствовали своё мастерство
+								</h6>
+							</div>
+						</div>
+						<div class="history__item">
+							<img src="./images/history/3.svg" alt="" class="history__item-icon" width="48" height="48">
+							<div class="history__item-text">
+								<h5 class="history__item-title">Первоклассная забота</h5>
+								<h6 class="history__item-description">
+									Мы предлагаем профессиональные услуги различных видов, 
+									учитывая уникальные потребности каждого животного
+								</h6>
+							</div>
+						</div>
+						<div class="history__item">
+							<img src="./images/history/4.svg" alt="" class="history__item-icon" width="48" height="48">
+							<div class="history__item-text">
+								<h5 class="history__item-title">Обучаем и поддерживаем</h5>
+								<h6 class="history__item-description">
+									Даём всем владельцам домашних животных необходимые знания и
+									советы, чтобы их питомцы были здоровы и счастливы всю жизнь!
+								</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				<img
+					class="history__image"
+					src="./images/history/main.jpg"
+					alt=""
+					width="689" height="946"
+				/>
+			</div>
+		</section>
+		<section class="team section" id="team">
+			<div class="team__inner container">
+				<h2 class="team__title">
+					Познакомьтесь с нашей командой: эксперты, преданные своему делу
+				</h2>
+				<div class="team__buttons">
+					<button class="team__button team-btn-active" data-index="0">Ветеринары</button>
+					<button class="team__button" data-index="1">Грумеры</button>
+				</div>
+				<div class="team__staff">
+					<div class="team__members team-active">
+						<div class="team__staff-person darling modal-btn1">
+							<div class="team__staff-info">
+								<div class="team__staff-text">
+									<p class="team__staff-title">д-р Каспер Дарлинг</p>
+									<div class="team__staff-description">
+										<img
+											class="team__staff-icon"
+											src="./images/team/briefcase.svg"
+											alt=""
+											width="14" height="14"
+										/>
+										<p class="team__staff-subtitle">Более 20-ти лет опыта работы</p>
+									</div>
+								</div>
+								<button class="modal-btn">
+									<svg class="black-arrow team-barrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect class="black-arrow-fill" width="32" height="32" rx="16"/>
+										<path d="M20.9498 11.0498L11.0498 20.9498" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M14 11L20.95 11.049L21 18" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="team__staff-person riley modal-btn2">
+							<div class="team__staff-info">
+								<div class="team__staff-text">
+									<p class="team__staff-title">д-р Саймон Райли</p>
+									<div class="team__staff-description">
+										<img
+											class="team__staff-icon"
+											src="./images/team/briefcase.svg"
+											alt=""
+											width="14" height="14"
+										/>
+										<p class="team__staff-subtitle">Более 15-ти лет опыта работы</p>
+									</div>
+								</div>
+								<button class="modal-btn">
+									<svg class="black-arrow team-barrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect class="black-arrow-fill" width="32" height="32" rx="16"/>
+										<path d="M20.9498 11.0498L11.0498 20.9498" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M14 11L20.95 11.049L21 18" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="team__staff-person ivanova modal-btn3">
+							<div class="team__staff-info">
+								<div class="team__staff-text">
+									<p class="team__staff-title">д-р Елена Ивановна</p>
+									<div class="team__staff-description">
+										<img
+											class="team__staff-icon"
+											src="./images/team/briefcase.svg"
+											alt=""
+											width="14" height="14"
+										/>
+										<p class="team__staff-subtitle">Более 10-ти лет опыта работы</p>
+									</div>
+								</div>
+								<button class="modal-btn">
+									<svg class="black-arrow team-barrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect class="black-arrow-fill" width="32" height="32" rx="16"/>
+										<path d="M20.9498 11.0498L11.0498 20.9498" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M14 11L20.95 11.049L21 18" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="team__staff-person belov modal-btn4">
+							<div class="team__staff-info">
+								<div class="team__staff-text">
+									<p class="team__staff-title">д-р Александр Белов</p>
+									<div class="team__staff-description">
+										<img
+											class="team__staff-icon"
+											src="./images/team/briefcase.svg"
+											alt=""
+											width="14" height="14"
+										/>
+										<p class="team__staff-subtitle">Более 10-ти лет опыта работы</p>
+									</div>
+								</div>
+								<button class="modal-btn">
+									<svg class="black-arrow team-barrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect class="black-arrow-fill" width="32" height="32" rx="16"/>
+										<path d="M20.9498 11.0498L11.0498 20.9498" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M14 11L20.95 11.049L21 18" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="modal-windows">
+							<div class="modal-window modal-window1">
+								<div class="modal-window-main">
+									<div class="modal-window__image darling-m">
+										<div class="modal-window__image-info">
+											<h4 class="modal-title">д-р Каспер Дарлинг</h4>
+											<h6 class="modal-subtitle">Ветеринарный врач</h6>
+										</div>
+									</div>
+									<div class="modal-window__content">
+										<div class="modal-window__content-text">
+											<h2 class="modal-window__content-title">Настоящий мастер хирургии для животных</h2>
+											<p class="modal-window__content-description">
+												Каспер с детства любит животных и посвятил свою жизнь их спасению. 
+												За 20 лет работы он стал экспертом в сложных хирургических вмешательствах. 
+												Обладает глубокими знаниями и навыками работы с современным оборудованием, всегда стремится помочь питомцам и их владельцам восстановить здоровье.
+											</p>
+										</div>
+										<div class="modal-window__content-blocks">
+											<div class="modal-window__content-block">
+												<img src="./images/team/orange-briefcase.svg" alt="">
+												<h6>Более 20-ти лет</h6>
+											</div>
+											<div class="modal-window__content-block">
+												<img src="./images/team/education.svg" alt="">
+												<h6>Калифорнийский университет, Дэвис, США</h6>
+											</div>
+										</div>
+										<div class="modal-window__content-benefits">
+											<ul class="modal-window__benefits-list">
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Эксперт по диагностике и лечению заболеваний мелких домашних животных
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Проведение сложных хирургических вмешательств
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Лечение травм, переломов и острых состояний
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Реабилитация и послеоперационный уход
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Разработка индивидуальных планов хирургического лечения
+												</li>
+											</ul>
+										</div>
+									</div>
+									<button class="modal-window__close-btn" onclick="closeModal()">
+										<img src="./images/team/close.svg" alt="Закрыть окно">
+									</button>
+								</div>
+							</div>
+							<div class="modal-window modal-window2">
+								<div class="modal-window-main">
+									<div class="modal-window__image riley-m">
+										<div class="modal-window__image-info">
+											<h4 class="modal-title">д-р Саймон Райли</h4>
+											<h6 class="modal-subtitle">Ветеринарный врач</h6>
+										</div>
+									</div>
+									<div class="modal-window__content">
+										<div class="modal-window__content-text">
+											<h2 class="modal-window__content-title">Заботливый специалист по уходу за зубами питомцев</h2>
+											<p class="modal-window__content-description">
+												Саймон с ранних лет решил связать свою жизнь с лечением животных. 
+												За 15 лет работы он стал профессиональным стоматологом, специализирующимся на домашних животных. 
+												Его навыки, забота и внимательность позволяют проводить сложные процедуры с максимальной бережностью.
+										</div>
+										<div class="modal-window__content-blocks">
+											<div class="modal-window__content-block">
+												<img src="./images/team/orange-briefcase.svg" alt="">
+												<h6>Более 15-ти лет</h6>
+											</div>
+											<div class="modal-window__content-block">
+												<img src="./images/team/education.svg" alt="">
+												<h6>Калифорнийский университет, Дэвис, США</h6>
+											</div>
+										</div>
+										<div class="modal-window__content-benefits">
+											<ul class="modal-window__benefits-list">
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Диагностика и лечение заболеваний полости рта у животных
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Хирургические операции на зубах и деснах
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Профессиональный уход за зубами
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Обучение владельцев правильному уходу за зубами питомцев
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Использование современных стоматологических инструментов и методов
+												</li>
+											</ul>
+										</div>
+									</div>
+									<button class="modal-window__close-btn" onclick="closeModal()">
+										<img src="./images/team/close.svg" alt="Закрыть окно">
+									</button>
+								</div>
+							</div>
+							<div class="modal-window modal-window3">
+								<div class="modal-window-main">
+									<div class="modal-window__image ivanova-m">
+										<div class="modal-window__image-info">
+											<h4 class="modal-title">д-р Елена Ивановна</h4>
+											<h6 class="modal-subtitle">Ветеринарный врач</h6>
+										</div>
+									</div>
+									<div class="modal-window__content">
+										<div class="modal-window__content-text">
+											<h2 class="modal-window__content-title">Специалист по сохранению зрения ваших любимцев</h2>
+											<p class="modal-window__content-description">
+												Елена Владимировна за 10 лет работы стала опытнейшим специалистом в области диагностики и лечения глазных заболеваний у домашних животных. 
+												Ее опыт включает хирургические операции, лазерные процедуры и обучение владельцев правильному уходу за глазами своих любимцев, чтобы сохранить их зрение на долгие годы.
+											</p>
+										</div>
+										<div class="modal-window__content-blocks">
+											<div class="modal-window__content-block">
+												<img src="./images/team/orange-briefcase.svg" alt="">
+												<h6>Более 10-ти лет</h6>
+											</div>
+											<div class="modal-window__content-block">
+												<img src="./images/team/education.svg" alt="">
+												<h6>Корнелльский университет, США</h6>
+											</div>
+										</div>
+										<div class="modal-window__content-benefits">
+											<ul class="modal-window__benefits-list">
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Диагностика и лечение глазных заболеваний у домашних животных
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Проведение хирургических операций на глазах, включая лазерные процедуры
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Использование современных методов диагностики
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Консультации по профилактике офтальмологических проблем
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Обучение владельцев правильному уходу за глазами питомцев
+												</li>
+											</ul>
+										</div>
+									</div>
+									<button class="modal-window__close-btn" onclick="closeModal()">
+										<img src="./images/team/close.svg" alt="Закрыть окно">
+									</button>
+								</div>
+							</div>
+							<div class="modal-window modal-window4">
+								<div class="modal-window-main">
+									<div class="modal-window__image belov-m">
+										<div class="modal-window__image-info">
+											<h4 class="modal-title">д-р Александр Белов</h4>
+											<h6 class="modal-subtitle">Ветеринарный врач</h6>
+										</div>
+									</div>
+									<div class="modal-window__content">
+										<div class="modal-window__content-text">
+											<h2 class="modal-window__content-title">Опытный терапевт для здоровья ваших питомцев</h2>
+											<p class="modal-window__content-description">
+												Алексей Белов с детства мечтал помогать животным. 
+												За 10 лет он научился точно диагностировать и эффективно лечить заболевания у различных видов животных. 
+												Он использует современные методы исследования и всегда ищет индивидуальный подход к каждому питомцу, чтобы вернуть ему здоровье.
+											</p>
+										</div>
+										<div class="modal-window__content-blocks">
+											<div class="modal-window__content-block">
+												<img src="./images/team/orange-briefcase.svg" alt="">
+												<h6>Более 10-ти лет</h6>
+											</div>
+											<div class="modal-window__content-block">
+												<img src="./images/team/education.svg" alt="">
+												<h6>Ливерпульский университет, Великобритания</h6>
+											</div>
+										</div>
+										<div class="modal-window__content-benefits">
+											<ul class="modal-window__benefits-list">
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Диагностика и лечение инфекционных заболеваний
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Проведение лабораторных исследований, УЗИ, рентгенографии
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Консультации по питанию, репродукции и профилактике болезней
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Программы профилактической помощи и вакцинации
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Внутренняя медицина
+												</li>
+											</ul>
+										</div>
+									</div>
+									<button class="modal-window__close-btn" onclick="closeModal()">
+										<img src="./images/team/close.svg" alt="Закрыть окно">
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="team__members">
+						<div class="team__staff-person ilya modal-btn21">
+							<div class="team__staff-info">
+								<div class="team__staff-text">
+									<p class="team__staff-title">Илья Новицкий</p>
+									<div class="team__staff-description">
+										<img
+											class="team__staff-icon"
+											src="./images/team/briefcase.svg"
+											alt=""
+											width="14" height="14"
+										/>
+										<p class="team__staff-subtitle">Более 20-ти лет опыта работы</p>
+									</div>
+								</div>
+								<button class="modal-btn">
+									<svg class="black-arrow team-barrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect class="black-arrow-fill" width="32" height="32" rx="16"/>
+										<path d="M20.9498 11.0498L11.0498 20.9498" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M14 11L20.95 11.049L21 18" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="team__staff-person mariya modal-btn22">
+							<div class="team__staff-info">
+								<div class="team__staff-text">
+									<p class="team__staff-title">Мария Татаринова</p>
+									<div class="team__staff-description">
+										<img
+											class="team__staff-icon"
+											src="./images/team/briefcase.svg"
+											alt=""
+											width="14" height="14"
+										/>
+										<p class="team__staff-subtitle">Более 15-ти лет опыта работы</p>
+									</div>
+								</div>
+								<button class="modal-btn">
+									<svg class="black-arrow team-barrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect class="black-arrow-fill" width="32" height="32" rx="16"/>
+										<path d="M20.9498 11.0498L11.0498 20.9498" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M14 11L20.95 11.049L21 18" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="team__staff-person den modal-btn23">
+							<div class="team__staff-info">
+								<div class="team__staff-text">
+									<p class="team__staff-title">Денис Володин</p>
+									<div class="team__staff-description">
+										<img
+											class="team__staff-icon"
+											src="./images/team/briefcase.svg"
+											alt=""
+											width="14" height="14"
+										/>
+										<p class="team__staff-subtitle">Более 10-ти лет опыта работы</p>
+									</div>
+								</div>
+								<button class="modal-btn">
+									<svg class="black-arrow team-barrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect class="black-arrow-fill" width="32" height="32" rx="16"/>
+										<path d="M20.9498 11.0498L11.0498 20.9498" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M14 11L20.95 11.049L21 18" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="team__staff-person saga modal-btn24">
+							<div class="team__staff-info">
+								<div class="team__staff-text">
+									<p class="team__staff-title">Сага Андерсон</p>
+									<div class="team__staff-description">
+										<img
+											class="team__staff-icon"
+											src="./images/team/briefcase.svg"
+											alt=""
+											width="14" height="14"
+										/>
+										<p class="team__staff-subtitle">Более 10-ти лет опыта работы</p>
+									</div>
+								</div>
+								<button class="modal-btn">
+									<svg class="black-arrow team-barrow" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect class="black-arrow-fill" width="32" height="32" rx="16"/>
+										<path d="M20.9498 11.0498L11.0498 20.9498" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+										<path d="M14 11L20.95 11.049L21 18" stroke="#F5F5F5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="modal-windows2">
+							<div class="modal-window modal-window21">
+								<div class="modal-window-main">
+									<div class="modal-window__image ilya-m">
+										<div class="modal-window__image-info">
+											<h4 class="modal-title">Илья Новицкий</h4>
+											<h6 class="modal-subtitle">Грумер</h6>
+										</div>
+									</div>
+									<div class="modal-window__content">
+										<div class="modal-window__content-text">
+											<h2 class="modal-window__content-title">Универсальный грумер</h2>
+											<p class="modal-window__content-description">
+												Мастер по уходу за различными видами домашних животных — от собак и кошек до экзотических питомцев. Обладает широкими знаниями в области гигиены и ухода за разными видами.
+											</p>
+										</div>
+										<div class="modal-window__content-blocks">
+											<div class="modal-window__content-block">
+												<img src="./images/team/orange-briefcase.svg" alt="">
+												<h6>Более 20-ти лет</h6>
+											</div>
+											<div class="modal-window__content-block">
+												<img src="./images/team/education.svg" alt="">
+												<h6>Калифорнийский университет, Дэвис, США</h6>
+											</div>
+										</div>
+										<div class="modal-window__content-benefits">
+											<ul class="modal-window__benefits-list">
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Экспертная диагностика и планирование лечения
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Опытный специалист в области хирургических операций
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Сострадательная забота о домашних животных и их владельцах
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Программы профилактической помощи и вакцинации
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Внутренняя медицина
+												</li>
+											</ul>
+										</div>
+									</div>
+									<button class="modal-window__close-btn" onclick="closeModal()">
+										<img src="./images/team/close.svg" alt="Закрыть окно">
+									</button>
+								</div>
+							</div>
+							<div class="modal-window modal-window22">
+								<div class="modal-window-main">
+									<div class="modal-window__image mariya-m">
+										<div class="modal-window__image-info">
+											<h4 class="modal-title">Мария Татаринова</h4>
+											<h6 class="modal-subtitle">Грумер</h6>
+										</div>
+									</div>
+									<div class="modal-window__content">
+										<div class="modal-window__content-text">
+											<h2 class="modal-window__content-title">Вдохновляющий на пожизненную заботу о них</h2>
+											<p class="modal-window__content-description">
+												Мария Татаринова — отзывчивый грумер,
+												глубоко преданный своему делу и стремящийся к здоровью и благополучию животных.
+												Мария родилась и выросла в Екатерибурге, Россия, и с юных лет полюбил животных,
+												что и пробудило в ней пожизненную преданность делу ухода за ними.
+											</p>
+										</div>
+										<div class="modal-window__content-blocks">
+											<div class="modal-window__content-block">
+												<img src="./images/team/orange-briefcase.svg" alt="">
+												<h6>Более 15-ти лет</h6>
+											</div>
+											<div class="modal-window__content-block">
+												<img src="./images/team/education.svg" alt="">
+												<h6>Калифорнийский университет, Дэвис, США</h6>
+											</div>
+										</div>
+										<div class="modal-window__content-benefits">
+											<ul class="modal-window__benefits-list">
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Экспертная диагностика и планирование лечения
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Опытный специалист в области хирургических операций
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Сострадательная забота о домашних животных и их владельцах
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Программы профилактической помощи и вакцинации
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Внутренняя медицина
+												</li>
+											</ul>
+										</div>
+									</div>
+									<button class="modal-window__close-btn" onclick="closeModal()">
+										<img src="./images/team/close.svg" alt="Закрыть окно">
+									</button>
+								</div>
+							</div>
+							<div class="modal-window modal-window23">
+								<div class="modal-window-main">
+									<div class="modal-window__image den-m">
+										<div class="modal-window__image-info">
+											<h4 class="modal-title">Денис Володин</h4>
+											<h6 class="modal-subtitle">Грумер</h6>
+										</div>
+									</div>
+									<div class="modal-window__content">
+										<div class="modal-window__content-text">
+											<h2 class="modal-window__content-title">Грумер для собак</h2>
+											<p class="modal-window__content-description">
+												Профессиональный грумер, специализирующийся на уходе за собаками всех пород. 
+												Выполняет стрижки, мытьё, уход за когтями и ушами, а также подготовку к выставкам. Заботится о комфорте и безопасности питомцев.
+											</p>
+										</div>
+										<div class="modal-window__content-blocks">
+											<div class="modal-window__content-block">
+												<img src="./images/team/orange-briefcase.svg" alt="">
+												<h6>Более 10-ти лет</h6>
+											</div>
+											<div class="modal-window__content-block">
+												<img src="./images/team/education.svg" alt="">
+												<h6>Корнелльский университет, США</h6>
+											</div>
+										</div>
+										<div class="modal-window__content-benefits">
+											<ul class="modal-window__benefits-list">
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Экспертная диагностика и планирование лечения
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Опытный специалист в области хирургических операций
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Сострадательная забота о домашних животных и их владельцах
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Программы профилактической помощи и вакцинации
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Внутренняя медицина
+												</li>
+											</ul>
+										</div>
+									</div>
+									<button class="modal-window__close-btn" onclick="closeModal()">
+										<img src="./images/team/close.svg" alt="Закрыть окно">
+									</button>
+								</div>
+							</div>
+							<div class="modal-window modal-window24">
+								<div class="modal-window-main">
+									<div class="modal-window__image saga-m">
+										<div class="modal-window__image-info">
+											<h4 class="modal-title">Сага Андерсон</h4>
+											<h6 class="modal-subtitle">Грумер</h6>
+										</div>
+									</div>
+									<div class="modal-window__content">
+										<div class="modal-window__content-text">
+											<h2 class="modal-window__content-title">Грумер для кошек</h2>
+											<p class="modal-window__content-description">
+												Опытный специалист по уходу за кошками. Проводит аккуратные стрижки, чистку шерсти, уход за когтями и ушами. 
+												Обладает терпением и умением работать с капризными питомцами.
+											</p>
+										</div>
+										<div class="modal-window__content-blocks">
+											<div class="modal-window__content-block">
+												<img src="./images/team/orange-briefcase.svg" alt="">
+												<h6>Более 10-ти лет</h6>
+											</div>
+											<div class="modal-window__content-block">
+												<img src="./images/team/education.svg" alt="">
+												<h6>Ливерпульский университет, Великобритания</h6>
+											</div>
+										</div>
+										<div class="modal-window__content-benefits">
+											<ul class="modal-window__benefits-list">
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Экспертная диагностика и планирование лечения
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Опытный специалист в области хирургических операций
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Сострадательная забота о домашних животных и их владельцах
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Программы профилактической помощи и вакцинации
+												</li>
+												<li class="modal-window__content-benefits-item">
+													<img src="./images/team/arrow-item.svg" alt="">
+													Внутренняя медицина
+												</li>
+											</ul>
+										</div>
+									</div>
+									<button class="modal-window__close-btn" onclick="closeModal()">
+										<img src="./images/team/close.svg" alt="Закрыть окно">
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="benefits-alt section">
+			<h2 class="benefits-alt__title">Бережный уход за каждой лапкой</h2>
+			<div class="benefits-alt__cards container">
+				<div class="benefits-alt__card">
+					<img
+						class="benefits-alt__card-icon"
+						src="./images/benefits-alt/1.svg"
+						alt=""
+						width="52" height="52"
+					/>
+					<p class="benefits-alt__card-title">ЖАЛОСТЬ</p>
+					<p class="benefits-alt__card-description">
+						Мы относимся к каждому питомцу с добротой и бережностью,
+						понимая его уникальные потребности и эмоции
+					</p>
+				</div>
+				<div class="benefits-alt__card">
+					<img
+						class="benefits-alt__card-icon"
+						src="./images/benefits-alt/2.svg"
+						alt=""
+						width="52" height="52"
+					/>
+					<p class="benefits-alt__card-title">ДОБРОСОВЕСТНОСТЬ</p>
+					<p class="benefits-alt__card-description">
+						Мы придерживаемся честности,
+						открытости и этики во всех аспектах нашей деятельности
+					</p>
+				</div>
+				<div class="benefits-alt__card">
+					<img
+						class="benefits-alt__card-icon"
+						src="./images/benefits-alt/3.svg"
+						alt=""
+						width="52" height="52"
+					/>
+					<p class="benefits-alt__card-title">СОВЕРШЕНСТВО</p>
+					<p class="benefits-alt__card-description">
+						Мы стремимся обеспечить высочайший стандарт ветеринарного обслуживания
+						благодаря постоянному обучению и преданности своему делу
+					</p>
+				</div>
+				<div class="benefits-alt__card">
+					<img
+						class="benefits-alt__card-icon"
+						src="./images/benefits-alt/4.svg"
+						alt=""
+						width="52" height="52"
+					/>
+					<p class="benefits-alt__card-title">СОТРУДНИЧЕСТВО</p>
+					<p class="benefits-alt__card-description">
+						Мы тесно взаимодействуем с владельцами животных,
+						чтобы обеспечить наилучшие условия для каждого питомца
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="achievements section">
+			<div class="achievements__body container">
+				<h1 class="achievements__title">Заслуги нашей компании</h1>
+				<div class="achievements__cards">
+					<div class="achievement__card">
+						<img
+							class="achievement__card-icon"
+							src="./images/achievements/1.svg" 
+							alt=""
+							width="121" height="97"
+						/>
+						<h6 class="achievement__card-title">"Качественные услуги груминга"</h6>
+						<p class="achievement__card-description">
+							Награда за уникальные навыки груминга, позволяющие питомцам чувствовать себя наилучшим образом
+						</p>
+					</div>
+					<img
+						class="achievement__card-image" 
+						src="./images/achievements/dog.jpg" 
+						alt=""
+						width="470" height="300"
+					/>
+					<div class="achievement__card">
+						<img
+							class="achievement__card-icon"
+							src="./images/achievements/3.svg" 
+							alt=""
+							width="121" height="97"
+						/>
+						<h6 class="achievement__card-title">"Выбор клиентов"</h6>
+						<p class="achievement__card-description">
+							Отмечен клиентами за выдающийся сервис и удовлетворённость клиентов
+						</p>
+					</div>
+					<img
+						class="achievement__card-image" 
+						src="./images/achievements/cat.jpg" 
+						alt=""
+						width="470" height="300"
+					/>
+					<div class="achievement__card">
+						<img
+							class="achievement__card-icon"
+							src="./images/achievements/2.svg" 
+							alt=""
+							width="121" height="97"
+						/>
+						<h6 class="achievement__card-title">"Лучший сервис по уходу за домашними животными"</h6>
+						<p class="achievement__card-description">
+							Награда за высококачественные услуги по уходу за домашними животными
+						</p>
+					</div>
+					<img
+						class="achievement__card-image" 
+						src="./images/achievements/hamsters.jpg" 
+						alt=""
+						width="470" height="300"
+					/>
+				</div>
+			</div>
+		</section>
+		<button class="top-button" onclick="topFunction()" id="top-button">
+			<img src="./images/top.svg" alt="Наверх" width="50" height="50">
+		</button>
+	</main>
+
+	<footer class="footer">
+		<div class="footer__inner">
+			<div class="footer__body">
+				<img 
+					class="footer__logo"
+					src="./images/footer/footer-logo.svg" 
+					alt=""
+					width="103" height="32"
+				/>
+				<div class="footer__menu">
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Контакты</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">8 333 444-55-22</li>
+							<li class="footer__menu-item">vetcare@mail.ru</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAv7R~A" class="footer__menu-link">
+									Головной офис:
+									г. Москва,
+									Кутузовский проспект,
+									32кА
+								</a>
+							</li>
+							<h6 class="footer__menu-item">
+								<a href="map.html" class="footer__menu-link">Карта сайта</a>
+							</h6>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Сайт</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">О нас</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="services.html">Услуги</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="news.html">Новости</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="emergency.html">Экстренная служба</a>
+							</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="#">Наша команда</a>
+								</li>
+							<li class="footer__menu-item">
+								<a class="footer__menu-link" href="index.html#reviews">Отзывы</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Услуги</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">Ветеринария</li>
+							<li class="footer__menu-item">Груминг</li>
+							<li class="footer__menu-item">Присмотр</li>
+							<li class="footer__menu-item">Уход</li>
+							<li class="footer__menu-item">Стационар</li>
+							<li class="footer__menu-item">Зоотовары</li>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Города</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAzA48K" class="footer__menu-link">Москва</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvvUon" class="footer__menu-link">Санкт-Петербург</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvzWiG" class="footer__menu-link">Новосибирск</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvvPi-" class="footer__menu-link">Ростов-на-Дону</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvzY-U" class="footer__menu-link">Екатеринбург</a>
+							</li>
+							<li class="footer__menu-item">
+								<a href="https://yandex.ru/maps/-/CLAvz2ir" class="footer__menu-link">Хабаровск</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Питомцы</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">Собаки</li>
+							<li class="footer__menu-item">Кошки</li>
+							<li class="footer__menu-item">Попугаи</li>
+							<li class="footer__menu-item">Кролики</li>
+							<li class="footer__menu-item">Мелкие грызуны</li>
+							<li class="footer__menu-item">Аквариумные</li>
+						</ul>
+					</div>
+					<div class="footer__menu-column">
+						<h6 class="footer__menu-title">Преимущества</h6>
+						<ul class="footer__menu-list">
+							<li class="footer__menu-item">Передовые технологии</li>
+							<li class="footer__menu-item">Квалифицированные специалисты</li>
+							<li class="footer__menu-item">Индивидуальный подход</li>
+							<li class="footer__menu-item">Поддержка владельцев</li>
+							<li class="footer__menu-item">Экстренная помощь</li>
+							<li class="footer__menu-item">Доступность</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__extra">
+					<p class="footer__extra-subtitle">
+                        2025 Vetcare, все права защищены | 
+                        <a href="legal.html" class="footer__extra-link">Политика конфиденциальности</a> |
+                        <a href="data.html" class="footer__extra-link">Соглашение пользователя</a>
+                    </p>
+					<div class="footer__extra-socials">
+						<img
+							class="footer__extra-social"
+							src="./images/footer/icon-Instagram.svg" 
+							alt=""
+							width="48" height="48" 
+						/>
+						<a href="https://vk.com/club230767133" class="footer__extra-social-link">
+							<img
+								class="footer__extra-social"
+								src="./images/footer/icon-Vk.svg" 
+								alt=""
+								width="48" height="48" 
+							/>
+						</a>
+						<img
+							class="footer__extra-social"
+							src="./images/footer/icon-Behance.svg" 
+							alt=""
+							width="48" height="48" 
+						/>
+						<a href="https://t.me/+nhmWvYDqGtkwOTcy" class="footer__extra-social-link">
+							<img
+								class="footer__extra-social"
+								src="./images/footer/icon-Telegram.svg" 
+								alt=""
+								width="48" height="48" 
+							/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
