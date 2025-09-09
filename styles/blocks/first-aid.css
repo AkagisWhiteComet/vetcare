@@ -36,3 +36,21 @@
 .first-aid__content-card-title {
 	margin-bottom: 6px;
 }
+
+
+
+@media (max-width: 567px) {
+	.first-aid__image {
+		display: none;
+	}
+
+	.first-aid__content-cards {
+		grid-template-columns: repeat(2, 268px);
+		gap: 5px;
+	}
+
+	.first-aid__content-card {
+		width: 230px;
+		height: 650px;
+	}
+}
