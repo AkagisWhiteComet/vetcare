@@ -65,3 +65,29 @@
 	display: flex;
 	gap: 24px;
 }
+
+@media (min-width: 567px) and (max-width: 768px) {
+
+}
+
+@media (max-width: 567px) {
+	.footer {
+		background-image: none;
+		background-color: var(--colour-dark);
+	}
+
+	.footer__menu {
+		gap: 20px;
+		justify-content: center;
+	}
+
+	.footer__extra {
+		padding: 10px;
+		margin: 50px 10px 10px 0;
+		gap: 20px;
+	}
+
+	.footer__logo {
+		margin: 10px 0 0 10px;
+	}
+}
