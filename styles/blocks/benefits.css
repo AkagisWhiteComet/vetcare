@@ -74,7 +74,12 @@
 
 @media (max-width: 567px) {
 	.benefits__body {
+		align-items: center;
 		gap: 40px;
+	}
+
+	.benefits__button {
+		align-self: center;
 	}
 
 	.benefits__cards {
@@ -83,12 +88,18 @@
 	}
 
 	.benefits__top {
-		display: flex;
 		flex-direction: column;
+		align-items: center;
+		justify-content: center;
 		gap: 30px;
 	}
 
 	.benefits__title {
 		max-width: 315px;
+		text-align: center;
+	}
+
+	.benefits__button {
+		text-align: center;
 	}
 }
