@@ -41,3 +41,21 @@
 	line-height: 0.56;
 	color: var(--colour-accent);
 }
+
+@media (min-width: 567px) and (max-width: 768px) {
+
+}
+
+@media (max-width: 567px) {
+	.metrics__image {
+		display: none;
+	}
+
+	.metrics__body {
+		text-align: center;
+	}
+
+	.metrics__value {
+		align-items: center;
+	}
+}
