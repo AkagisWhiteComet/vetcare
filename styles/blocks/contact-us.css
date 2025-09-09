@@ -105,4 +105,17 @@
 	color: #ff002f;
 	font-size: 18px;
 	height: 30px;
+
+}
+
+
+
+@media (max-width: 567px) {
+	.form__image {
+		display: none;
+	}
+
+	.field__control {
+		width: 320px;
+	}
 }
