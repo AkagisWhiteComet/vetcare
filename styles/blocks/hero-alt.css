@@ -34,3 +34,11 @@
 	bottom: 525px;
 	left: 357px;
 }
+
+
+
+@media (max-width: 567px) {
+	.hero-alt__images {
+		display: none;
+	}
+}
