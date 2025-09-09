@@ -137,3 +137,24 @@
 .team-barrow {
 	top: 20px;
 }
+
+
+
+@media (max-width: 567px) {
+	.team__members {
+		display: grid;
+		grid-template-columns: repeat(2, 270px);
+		gap: 5px;
+	}
+
+	.team__buttons {
+		display: none;
+	}
+
+	.team__staff-person {
+		width: 270px;
+	}
+	.team__staff-info {
+		width: 220px;
+	}
+}
