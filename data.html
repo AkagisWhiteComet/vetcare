@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,6 +39,24 @@
 				</ul>
 			</nav>
 			<a class="header__button" href="index.html#contact">Связаться</a>
+
+
+			<!-- Burger menu -->
+			<nav class="burger-menu">
+				<input class="burger-menu__check" type="checkbox" id="showmenu"/>
+				<label class="burger-menu__showmenu" for="showmenu">
+					<img class="header__burger-button-img" src="./images/header/burger-menu-svgrepo-com.svg" alt="" width="40" height="40">
+				</label>
+				<label class="burger-menu__back" for="showmenu"></label>
+				<ul class="burger-menu__list">
+					<li><a class="burger-menu__item" href="index.html">Главная</a></li>
+					<li><a class="burger-menu__item" href="about.html">О нас</a></li>
+					<li><a class="burger-menu__item" href="services.html">Услуги</a></li>
+					<li><a class="burger-menu__item" href="emergency.html">Экстренная помощь</a></li>
+					<li><a class="burger-menu__item" href="news.html">Новости</a></li>
+					<li><a class="burger-menu__item" href="index.html#contact">Связаться</a></li>
+				</ul>
+			</nav>
 		</div>
 	</header>
 
@@ -161,6 +179,9 @@
             12.2. Отзывы Пользователя, размещенные на Сайте, не являются конфиденциальной информацией и могут быть использованы Администрацией сайта без ограничений.
             12.3. Политика конфиденциальности, опубликованная на Сайте, является частью настоящего Пользовательского соглашения. Обновлено «09» января 2024г.
         </p>
+				<button class="top-button" onclick="topFunction()" id="top-button">
+					<img src="./images/top.svg" alt="Наверх" width="50" height="50">
+				</button>
   </main>
 
   <footer class="footer">
@@ -309,5 +330,4 @@
 		</div>
 	</footer>
 </body>
-
 </html>
