@@ -97,3 +97,45 @@
 		height: 20px;
 	}
 }
+
+@media (min-width: 567px) and (max-width: 768px) {
+
+}
+
+@media (max-width: 567px) {
+	.hero__body {
+		background: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hero__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hero__title, .hero__subtitle, .hero__description {
+		text-align: center;
+	}
+
+	.hero__images {
+		display: none;
+	}
+
+	.hero__advantage {
+		width: 567px;
+		height: 44px;
+	}
+
+	.hero__advantage-list-icon {
+		width: 25px;
+		height: 25px;
+	}
+
+	.mobail {
+		display: none;
+	}
+}
