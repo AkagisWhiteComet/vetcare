@@ -26,6 +26,7 @@
 
 .header__menu-list {
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	column-gap: 40px;
 	padding: 0;
@@ -63,4 +64,112 @@
 	color: var(--colour-accent);
 	outline: 1px solid var(--colour-accent);
 	outline-offset: -1px;
+}
+
+
+
+/* Burger */
+.burger-menu {
+	display: none;
+	user-select: none;
+}
+.burger-menu__check {display: none;}
+.burger-menu__showmenu, .burger-menu__back {cursor: pointer;}
+
+
+
+@media (min-width: 567px) and (max-width: 768px) {
+	.header__menu-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.header {
+		flex-wrap: wrap;
+	}
+
+	.header__menu {
+		order: 1;
+		flex-basis: 50%;
+	}
+}
+
+@media (max-width: 567px) {
+	.header {
+		padding: 10px;
+	}
+
+	.header__menu-list {
+		display: none;
+	}
+
+	.header__button {
+		display: none;
+	}
+
+	/* Burger */
+	.burger-menu {
+		display: block;
+		position: relative;
+	}
+
+	.burger-menu__showmenu {
+		position: absolute;
+		display: inline-block;
+		margin-left: -10px;
+		padding: 5px 10px 10px;
+		top: -25px;
+		right: -365px;
+	}
+
+	.burger-menu__back {
+		display: none;
+	}
+	.burger-menu__check:checked ~ .burger-menu__back {
+		display: block;
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		transition: background-color .3s;
+
+		background-color: rgba(0,0,0,.2);
+		bottom: 0;
+	}
+
+	.burger-menu__list {
+		list-style: none;
+		color: var(--colour-light);
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		display: block;
+		width: 220px;
+		margin: 0;
+		padding: 17px 0;
+		line-height: 2em;
+		background-color: var(--colour-dark);
+		overflow-y: auto;
+		-webkit-overflow-scrolling: touch;
+		transform: translateX(100%);
+		transition: transform .3s;
+		will-change: transform;
+		backface-visibility: hidden;
+	}
+
+	.burger-menu__item {
+		font-size: 22px;
+		display: block;
+		text-align: center;
+		text-decoration: none;
+		color: var(--colour-light);
+	}
+
+	.burger-menu__list::-webkit-scrollbar {display: none;}
+	.burger-menu__check:checked+.burger-menu__showmenu {color: var(--colour-light);}
+	.burger-menu__check:checked~.burger-menu__list {transform: translateX(0);}
 }
