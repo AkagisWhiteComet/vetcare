@@ -137,3 +137,14 @@
 .saga-m {
     background-image: url(../../images/team/saga-full.jpg);
 }
+
+
+
+@media (max-width: 567px) {
+    .modal-window-main {
+    	width: 450px;
+    }   
+    .modal-window__image {
+    	display: none;
+    }
+}
