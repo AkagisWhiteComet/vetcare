@@ -44,3 +44,18 @@
 .hero-next__image--right {
 	border-radius: 24px 120px;
 }
+
+
+
+@media (max-width: 567px) {
+	.hero-next {
+		background-image: none;
+	}
+
+	.hero-next__image--left, .hero-next__image--right {
+		display: none;
+	}
+	.hero-next__image--middle {
+		width: 500px;
+	}
+}
