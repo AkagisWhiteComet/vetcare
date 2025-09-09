@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/main.css">
 	<link rel="shortcut icon" href="./images/icons/tab-icon.svg">
+	<script src="./scripts/main.js" defer></script>
   <title>Vetcare | Юридическая информация</title>
 </head>
 <body>
@@ -38,6 +39,24 @@
 				</ul>
 			</nav>
 			<a class="header__button" href="index.html#contact">Связаться</a>
+
+
+			<!-- Burger menu -->
+			<nav class="burger-menu">
+				<input class="burger-menu__check" type="checkbox" id="showmenu"/>
+				<label class="burger-menu__showmenu" for="showmenu">
+					<img class="header__burger-button-img" src="./images/header/burger-menu-svgrepo-com.svg" alt="" width="40" height="40">
+				</label>
+				<label class="burger-menu__back" for="showmenu"></label>
+				<ul class="burger-menu__list">
+					<li><a class="burger-menu__item" href="index.html">Главная</a></li>
+					<li><a class="burger-menu__item" href="about.html">О нас</a></li>
+					<li><a class="burger-menu__item" href="services.html">Услуги</a></li>
+					<li><a class="burger-menu__item" href="emergency.html">Экстренная помощь</a></li>
+					<li><a class="burger-menu__item" href="news.html">Новости</a></li>
+					<li><a class="burger-menu__item" href="index.html#contact">Связаться</a></li>
+				</ul>
+			</nav>
 		</div>
 	</header>
 
@@ -112,6 +131,9 @@
                 Сервисный центр не принимает предложения от Пользователей относительно изменений настоящей Политики конфиденциальности.
                 Используя сервисы и материалы Сайта Пользователь подтверждает, что ознакомлен со всеми пунктами настоящей Политики конфиденциальности и принимает их без исключений и оговорок
             </p>
+						<button class="top-button" onclick="topFunction()" id="top-button">
+							<img src="./images/top.svg" alt="Наверх" width="50" height="50">
+						</button>
   </main>
 
   <footer class="footer">
@@ -260,5 +282,4 @@
 		</div>
 	</footer>
 </body>
-
 </html>
