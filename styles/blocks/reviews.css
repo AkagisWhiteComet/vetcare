@@ -102,7 +102,27 @@
 }
 
 @media (max-width: 567px) {
+	.reviews__body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.reviews__images {
 		display: none;
+	}
+
+	.reviews__review {
+		width: 440px;
+		height: 350px;
+	}
+
+	.reviews_title {
+		text-align: center;
+	}
+
+	.reviews__description {
+		max-width: 410px;
 	}
 }
