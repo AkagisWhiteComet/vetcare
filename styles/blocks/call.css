@@ -69,3 +69,21 @@
 	background-color: rgba(27, 27, 27, 0.5);
 	color: rgba(255, 153, 0, 0.5);
 }
+
+
+
+@media (max-width: 567px) {
+	.call__image {
+		display: none;
+	}
+
+	.call__body {
+		text-align: center;
+	}
+
+	.call__content-list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
