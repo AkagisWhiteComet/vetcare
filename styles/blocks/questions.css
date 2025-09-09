@@ -51,3 +51,12 @@ summary {
 	font-size: 32px;
 	line-height: 40px;
 }
+
+
+
+@media (max-width: 567px) {
+	.questions__accordions {
+		display: flex;
+		flex-direction: column;
+	}
+}
