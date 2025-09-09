@@ -34,3 +34,16 @@
 .benefits-alt__card-title {
 	font-weight: 600;
 }
+
+
+
+@media (max-width: 567px) {
+	.benefits-alt__cards {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.benefits-alt__card {
+		width: 450px;
+	}
+}
